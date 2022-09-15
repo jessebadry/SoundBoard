@@ -1,0 +1,24 @@
+{
+  "name": "soundboardbot",
+  "version": "1.0.0",
+  "description": "soundbot for fun times",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessebadry/SoundBoardBot.git"
+  },
+  "author": "Jesse Badry <jessebadry@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessebadry/SoundBoardBot/issues"
+  },
+  "homepage": "https://github.com/jessebadry/SoundBoardBot#readme",
+  "dependencies": {
+    "@discordjs/voice": "^0.11.0",
+    "discord.js": "^14.2.0",
+    "js-csp": "^1.0.1"
+  }
+}
