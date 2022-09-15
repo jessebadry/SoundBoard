@@ -6,6 +6,7 @@ const {
   ButtonBuilder,
   ButtonStyle,
 } = require("discord.js");
+
 const { join } = require('path');
 const {
   joinVoiceChannel,
@@ -14,6 +15,7 @@ const {
   VoiceConnectionStatus,
   createAudioResource,
 } = require("@discordjs/voice");
+
 const player = createAudioPlayer();
 player.on(AudioPlayerStatus.Playing, () => {
   console.log("The audio player has started playing!");
